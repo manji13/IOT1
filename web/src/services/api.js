@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Use environment variable for API base URL, fallback to production URL
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://final-project-backend-psi.vercel.app/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://iot-1-iota.vercel.app/api';
 
 const API = axios.create({
     baseURL: API_BASE_URL,
